@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text436/refs/heads/main/Text436.lua"))() -- detectar quien es Runner y Targger
 
 -- ======================
--- SBS HUB COMPLETO FINAL  (jjs)
+-- SBS HUB COMPLETO FINAL  (SHAMARMA)
 -- ======================
 repeat task.wait() until game:IsLoaded()
 
@@ -38,7 +38,7 @@ local topTitles = {
     ["AUTO SPECIAL/VARIANTE (BUG)"] = "Gojo",
     ["AUTO BLACK FLASH (Gojo)"] = "BLACK FLASH",
     ["AUTO GANAR EN LA HABILIDAD Juicio Final"] = "GANAR",
-    ["SPED"] = "PLAYER",
+    ["SPEED"] = "PLAYER",
 }
 
 -- poner títulos abajo de tal botón
@@ -774,14 +774,17 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"PLAYER","ESP","COMBAT","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","OP","COMBAT","FPS","YOUTUBE"}
 local menuData = {
-    ["PLAYER"] = {
+    ["MAIN"] = {
+    "DESYNC",
+    "INVISIBLE",
     "SPEED",
     "JUMPPOWER",  
     "GRAVITY",
     "RESET STATS",
     "INFINITI JUMP",
+    "NOCLIP",
     "FLY SPEED",
     "FLY",
     },
@@ -790,8 +793,8 @@ local menuData = {
         "ESP VIDA",
         "ESP NOMBRE",
     },
-    ["ANTI"] = {
-        "ANTI LAVA",
+    ["OP"] = {
+        "METER AL INSPECTOR (GASTA BOOST)",
     },
     ["FLING"] = {
         "TOUCH FLING",

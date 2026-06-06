@@ -789,12 +789,13 @@ local menuData = {
     "FLY",
     },
     ["ESP"] = {
-        "ESP A JUGADORES", 
-        "ESP VIDA",
-        "ESP NOMBRE",
+        "ESP ANOMALIAS", 
+        "ESP A NO ANOMALIAS",
+        "ESP ",
     },
     ["OP"] = {
         "METER AL INSPECTOR (GASTA BOOST)",
+        "",
     },
     ["FLING"] = {
         "TOUCH FLING",
@@ -923,8 +924,8 @@ if topTitle then
         if opt == "RESET STATS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Reset-speed-jumpPower-y-gravedad-/refs/heads/main/Reset.lua"))()
 
-        elseif opt == "AUTO BLACK FLASH (Itadori)" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text446/refs/heads/main/Text446.lua"))()
+        elseif opt == "METER AL INSPECTOR (GASTA BOOST)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text275/refs/heads/main/Text275.lua"))()
             
         elseif opt == "" then
             loadstring("getgenv().HIGHLIGHT_ME = not getgenv().HIGHLIGHT_ME")()

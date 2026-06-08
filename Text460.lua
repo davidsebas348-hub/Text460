@@ -792,7 +792,7 @@ local menuData = {
         "ESP ",
     },
     ["OP"] = {
-        "BOOST INFINITOS",
+        "BOOST INFINITOS(VAS A OBTENER TODO)",
         "SEMI-INMUNE",
         "AUTO REVIVIR",
         "REVIVIR",
@@ -938,7 +938,7 @@ if topTitle then
         elseif opt == "ESP A NO ANOMALIAS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text257/refs/heads/main/Text257.lua"))()
                             
-        elseif opt == "+10% DE CONSEJO (GASTA )" then
+        elseif opt == "BOOST INFINITOS(VAS A OBTENER TODO)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text264/refs/heads/main/Text264.lua"))()
 
         elseif opt == "+110% DE GANANCIA" then

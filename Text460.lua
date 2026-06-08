@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text436/refs/heads/main/Text436.lua"))() -- detectar quien es Runner y Targger
-
 -- ======================
 -- SBS HUB COMPLETO FINAL  (SHAMARMA)
 -- ======================

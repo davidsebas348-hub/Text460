@@ -795,7 +795,7 @@ local menuData = {
     },
     ["OP"] = {
         "METER AL INSPECTOR (GASTA BOOST)",
-        "",
+        "+10% DE CONSEJO (GASTA BOOST)",
     },
     ["FLING"] = {
         "TOUCH FLING",
@@ -936,8 +936,8 @@ if topTitle then
         elseif opt == "ESP A NO ANOMALIAS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text257/refs/heads/main/Text257.lua"))()
                             
-        elseif opt == "AUTO BLACK FLASH (Mahito)(BETA)" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text449/refs/heads/main/Text449.lua"))()
+        elseif opt == "+10% DE CONSEJO (GASTA BOOST)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text264/refs/heads/main/Text264.lua"))()
 
         elseif opt == "AUTO SPECIAL/VARIANTE (BUG)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text450/refs/heads/main/Text450.lua"))()

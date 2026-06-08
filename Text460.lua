@@ -793,9 +793,11 @@ local menuData = {
     },
     ["OP"] = {
         "BOOST INFINITOS",
+        "SEMI-INMUNE",
+        "AUTO REVIVIR",
+        "REVIVIR",
         "METER AL INSPECTOR (GASTA BOOST)",
-        "+10% DE CONSEJO (GASTA BOOST)",
-        "X2 DE GANANCIA",
+        "+110% DE GANANCIA",
     },
     ["FLING"] = {
         "TOUCH FLING",
@@ -936,10 +938,10 @@ if topTitle then
         elseif opt == "ESP A NO ANOMALIAS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text257/refs/heads/main/Text257.lua"))()
                             
-        elseif opt == "+10% DE CONSEJO (GASTA BOOST)" then
+        elseif opt == "+10% DE CONSEJO (GASTA )" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text264/refs/heads/main/Text264.lua"))()
 
-        elseif opt == "X2 DE GANANCIA" then
+        elseif opt == "+110% DE GANANCIA" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text263/refs/heads/main/Text263.lua"))()
                             
         elseif opt == "AUTO AIM (SOLO CON 0.2 ACTIVO)" then

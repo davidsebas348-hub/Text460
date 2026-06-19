@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","OP","COMBAT","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","OP","ANTI","COMBAT","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
@@ -805,13 +805,10 @@ local menuData = {
         "PLAYER NAME.",
         "FLING PLAYER",
     },
-    ["TOOL"] = {
-        "NO COOLDOWN TOOL (NO FAKE TOOL)",
-        "GET THE TOOL TRAP",
-        "GET THE TOOL SPORTS DRINK",
-        "GET THE TOOL TIME MACHINE",
-        "GET THE TOOL GHOST",
-        "GET THE TOOL SPAWN DECOY", 
+    ["ANTI"] = {
+        "ANTI SCREAMER",
+        "ANTI INSPECTOR (BUG)",
+        "ANTI FLOOR INSPECTOR", 
     },
     ["TELEPORT"] = {
         "TP TOOL",
@@ -944,11 +941,11 @@ if topTitle then
         elseif opt == "+110% DE GANANCIA" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text263/refs/heads/main/Text263.lua"))()
                             
-        elseif opt == "AUTO AIM (SOLO CON 0.2 ACTIVO)" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text451.lua/refs/heads/main/Text451.lua"))()
+        elseif opt == "ANTI SCREAMER" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text296/refs/heads/main/Text296.lua"))()
                             
-        elseif opt == "AUTO DOMINIO 0.2" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text451/refs/heads/main/Text451.lua"))()
+        elseif opt == "ANTI FLOOR INSPECTOR" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text287/refs/heads/main/Text287.lua"))()
 
         elseif opt == "AUTO GANAR EN LA HABILIDAD Juicio Final" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text452/refs/heads/main/Text452.lua"))()

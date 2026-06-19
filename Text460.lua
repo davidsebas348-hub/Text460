@@ -789,12 +789,11 @@ local menuData = {
     ["ESP"] = {
         "ESP A ANOMALIAS", 
         "ESP A NO ANOMALIAS",
-        "ESP ",
+        "ESP A JUGADORES",
     },
     ["OP"] = {
         "BOOST INFINITOS(VAS A OBTENER TODO)",
         "SEMI-INMUNE",
-        "AUTO REVIVIR",
         "REVIVIR",
         "METER AL INSPECTOR (GASTA BOOST)",
         "+110% DE GANANCIA",
@@ -831,15 +830,19 @@ local menuData = {
     ["AUTO FARM"] = {
         "AUTO FARM ESCAPES",
     },
-    ["TRAP"] = {
-        "SPAWN TRAP",
-        "AUTO SPAWN TRAP",
-        "DELAY",
-        "ANTI TRAPS",
+    ["PROXIMIT"] = {
+        "INSTANT PROMPT",
+        "NOCLIP A PROXIMITY PROMPT",
+        "AUMENTAR EL RANGO DEL PROMPT",
+        "activar prompt (Click)",
+        "TODOS LOS PROMPT ACTIVOS"
     },
     ["PROXIMITY PROMPT"] = {
         "INSTANT PROMPT",
         "NOCLIP PROMPT",
+        "AUMENTAR EL RANGO DEL PROMPT A 20",
+        "ACTIVAR PROMPT (Click)",
+        "TODOS LOS PROMPT ACTIVOS"
     },
     ["FPS"] = {
         "Fps Boost"
@@ -947,20 +950,20 @@ if topTitle then
         elseif opt == "ANTI FLOOR INSPECTOR" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text287/refs/heads/main/Text287.lua"))()
 
-        elseif opt == "AUTO GANAR EN LA HABILIDAD Juicio Final" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text452/refs/heads/main/Text452.lua"))()
+        elseif opt == "ANTI INSPECTOR (BUG)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text295/refs/heads/main/Text295.lua"))()
                             
-        elseif opt == "AUTO UPPERCUT" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text453/refs/heads/main/Text453.lua"))()
+        elseif opt == "AUMENTAR EL RANGO DEL PROMPT A 20" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text270/refs/heads/main/Text270.lua"))()
                             
         elseif opt == "DESYNC" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text428/refs/heads/main/Text428.lua"))()
 
-        elseif opt == "AUTO GANAR EN LOS CHOQUES DE RAYOS" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text454/refs/heads/main/Text454.lua"))()
+        elseif opt == "TODOS LOS PROMPT ACTIVOS" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text272/refs/heads/main/Text272.lua"))()
                             
-        elseif opt == "AUTO REVERSAL RED MAX (ULT)" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text455/refs/heads/main/Text455.lua"))()
+        elseif opt == "ACTIVAR PROMPT (Click)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text271/refs/heads/main/Text271.lua"))()
 
         elseif opt == "ESP A JUGADORES" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text456/refs/heads/main/Text456.lua"))()

@@ -976,8 +976,8 @@ if topTitle then
         elseif opt == "TP ADENTRO DE LA TIENDA" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text278/refs/heads/main/Text278.lua"))()
 
-        elseif opt == "AUTO SPAWN TRAP" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text354/refs/heads/main/Text354.lua"))()
+        elseif opt == "REVIVIR" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text277/refs/heads/main/Text277.lua"))()
                             
         elseif opt == "" then
             loadstring("getgenv().OnlyVisible = not getgenv().OnlyVisible")()

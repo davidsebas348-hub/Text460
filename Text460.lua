@@ -792,6 +792,7 @@ local menuData = {
         "ESP A JUGADORES",
     },
     ["OP"] = {
+        "Chat Gratis (gui)",
         "BOOST INFINITOS(VAS A OBTENER TODO)",
         "SEMI-INMUNE",
         "REVIVIR",
@@ -968,8 +969,8 @@ if topTitle then
         elseif opt == "ESP A JUGADORES" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text456/refs/heads/main/Text456.lua"))()
                             
-        elseif opt == "ESP NOMBRE" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text457/refs/heads/main/Text457.lua"))()
+        elseif opt == "Chat Gratis (gui)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text300/refs/heads/main/Text300.lua"))()
                             
         elseif opt == "ESP VIDA" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text458/refs/heads/main/Text458.lua"))()

@@ -167,9 +167,9 @@ local buttonTitles = {
     ["LAG SERVER (NO LOBBY)"] = "TROLL",
     ["JUMP(BUTTON)"] = "JUMP PAD",
 
-    ["TP TOOL"] = "CLICK TP",
-    ["MAP"] = "GAME",
-    ["PLAYER NAME"] = "PLAYERS",
+    ["TP TOOL"] = "TOOL",
+    ["MAPA"] = "TP DENTRO DE LA TIENDA",
+    ["NOMBRE DE EL JUGADOR"] = "JUGADORES",
     
 
     ["AUTO DOBLE JUMP"] = "BUTTONS",
@@ -269,7 +269,7 @@ local textboxButtons = {
     variable = "HITBOX_SIZE",
     url = nil
     },
-    ["PLAYER NAME"] = {
+    ["NOMBRE DE EL JUGADOR"] = {
     variable = "PLAYER",
     url = nil
     },
@@ -812,8 +812,9 @@ local menuData = {
     },
     ["TELEPORT"] = {
         "TP TOOL",
-        "PLAYER NAME",
-        "TP TO PLAYER",
+        "TP ADENTRO DE LA TIENDA",
+        "NOMBRE DE EL JUGADOR",
+        "TP A JUGADOR",
     },
     ["COMBAT"] = {
         "AUTO UPPERCUT",
@@ -972,8 +973,8 @@ if topTitle then
         elseif opt == "Chat Gratis (gui)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text300/refs/heads/main/Text300.lua"))()
                             
-        elseif opt == "ESP VIDA" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text458/refs/heads/main/Text458.lua"))()
+        elseif opt == "TP ADENTRO DE LA TIENDA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text278/refs/heads/main/Text278.lua"))()
 
         elseif opt == "AUTO SPAWN TRAP" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text354/refs/heads/main/Text354.lua"))()

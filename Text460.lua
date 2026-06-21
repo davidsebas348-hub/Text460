@@ -172,11 +172,11 @@ local buttonTitles = {
     ["NOMBRE DE EL JUGADOR"] = "JUGADORES",
     
 
-    ["AUTO DOBLE JUMP"] = "BUTTONS",
+    [""] = "BUTTONS",
     [""] = "TROLL", 
     
-    ["ESP TO ALL ALARMS"] = "END",
-    ["ESP TO ALL THE TOKEN"] = "ITEMS",
+    ["PLAYER NAME."] = "FLING",
+    ["TOUCH FLING"] = "TOUCH",
     ["ESP ENEMIES"] = "ENEMIES",
     ["ESP PLAYERS + NAME + DISTANCE"] = "PLAYERS",
 
@@ -224,10 +224,10 @@ local noToggleButtons = {
     ["GET THE TOOL GHOST"] = true,
     ["EXTEND BREAK"] = true,
     ["INSTANT REVIVE"] = true,
-    ["SPEED BOOST"] = true,
-    ["SHOW PANELS"] = true,  
+    ["DAR SHAWARMA"] = true,
+    ["HACER SHAWARMA"] = true,  
     ["TP TO PLAYER"] = true,
-    ["ANTI LAVA"] = true,
+    ["FLING PLAYER"] = true,
 }
 
 -- BOTONES SIN EFECTO VERDE
@@ -394,7 +394,7 @@ end
 local title = Instance.new("TextLabel", mainFrame)
 title.Size = UDim2.new(1,0,0,50)
 title.BackgroundColor3 = Color3.fromRGB(0,0,0)
-title.Text = "SBS HUB | Jujutsu Shenanigans"
+title.Text = "SBS HUB | Scary Shawarma"
 title.TextColor3 = Color3.fromRGB(255,255,255)
 title.Font = Enum.Font.GothamBold
 title.TextScaled = true
@@ -757,14 +757,14 @@ end
 -- SCROLL POR SUBMENU
 -- ======================
 local scrollConfig = {
-    ["PLAYER"] = true,
+    ["MAIN"] = true,
     ["ESP"] = true,
-    ["COMBAT"] = true,
-    ["SHERIFF"] = true,
-    ["MURDERER"] = true,
+    ["SHAWARMA"] = true,
+    ["OP"] = true,
+    ["ANTI"] = true,
     ["TELEPORT"] = true,
     ["FAKEBOMB"] = true,
-    ["FLING"] = true,
+    ["LOBBY"] = true,
     ["AUTO FARM"] = true,
     ["Fps"] = false,
     ["YOUTUBE"] = false
@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","SHAWARMA","OP","ANTI","LOBBY","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","SHAWARMA","OP","TELEPORT","ANTI","LOBBY","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",

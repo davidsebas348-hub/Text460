@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","OP","ANTI","COMBAT","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","SHAWARMA","OP","ANTI","LOBBY","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
@@ -799,7 +799,7 @@ local menuData = {
         "METER AL INSPECTOR (GASTA BOOST)",
         "+110% DE GANANCIA",
     },
-    ["FLING"] = {
+    ["LOBBY"] = {
         "TOUCH FLING",
         "POWER",
         "PLAYER NAME.",
@@ -816,18 +816,11 @@ local menuData = {
         "NOMBRE DE EL JUGADOR",
         "TP A JUGADOR",
     },
-    ["COMBAT"] = {
-        "AUTO UPPERCUT",
-        "AUTO BLACK FLASH (Gojo)",
-        "AUTO BLACK FLASH (Itadori)",
-        "AUTO BLACK FLASH (Yuta)",
-        "AUTO BLACK FLASH (Mahito)(BETA)",
-        "AUTO SPECIAL/VARIANTE (BUG)",
-        "AUTO DOMINIO 0.2",
-        "AUTO AIM (SOLO CON 0.2 ACTIVO)",
-        "AUTO REVERSAL RED MAX (ULT)",    
-        "AUTO GANAR EN LA HABILIDAD Juicio Final",
-        "AUTO GANAR EN LOS CHOQUES DE RAYOS",
+    ["SHAWARMA"] = {
+        "HACER SHAWARMA",
+        "AUTO HACER SHAWARMA",
+        "DAR SHAWARMA",
+        "AUTO DAR SHAWARMA",
     },
     ["AUTO FARM"] = {
         "AUTO FARM ESCAPES",
@@ -982,20 +975,20 @@ if topTitle then
         elseif opt == "" then
             loadstring("getgenv().OnlyVisible = not getgenv().OnlyVisible")()
                             
-        elseif opt == "NO COOLDOWN TOOL (NO FAKE TOOL)" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text356/refs/heads/main/Text356.lua"))()
+        elseif opt == "AUTO DAR SHAWARMA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text273/refs/heads/main/Text273.lua"))()
 
-        elseif opt == "INSTANT PROMPT" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text265/refs/heads/main/Text265.lua"))()
+        elseif opt == "HACER SHAWARMA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text284/refs/heads/main/Text284.lua"))()
                             
         elseif opt == "NOCLIP PROMPT" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text269/refs/heads/main/Text269.lua"))()
                             
-        elseif opt == "TRAP GUARD" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text213/refs/heads/main/Text213.lua"))()
+        elseif opt == "AUTO HACER SHAWARMA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text285/refs/heads/main/Text285.lua"))()
 
-        elseif opt == "INSTANT REVIVE" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text336/refs/heads/main/Text336.lua"))()
+        elseif opt == "DAR SHAWARMA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text274/refs/heads/main/Text274.lua"))()
                             
         elseif opt == "EXTEND BREAK" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text339/refs/heads/main/Text339.lua"))()

@@ -221,9 +221,9 @@ local noToggleButtons = {
     ["GET THE TOOL TRAP"] = true,
     ["GET THE TOOL TIME MACHINE"] = true,  
     ["GET THE TOOL SPAWN DECOY"] = true,
-    ["GET THE TOOL GHOST"] = true,
-    ["EXTEND BREAK"] = true,
-    ["INSTANT REVIVE"] = true,
+    ["TP ADENTRO DE LA TIENDA"] = true,
+    ["TP A JUGADOR"] = true,
+    ["BOOST INFINITOS(VAS A OBTENER TODO)""] = true,
     ["DAR SHAWARMA"] = true,
     ["HACER SHAWARMA"] = true,  
     ["TP TO PLAYER"] = true,
@@ -763,7 +763,7 @@ local scrollConfig = {
     ["OP"] = true,
     ["ANTI"] = true,
     ["TELEPORT"] = true,
-    ["FAKEBOMB"] = true,
+    ["PROXIMITY PROMPT"] = true,
     ["LOBBY"] = true,
     ["AUTO FARM"] = true,
     ["Fps"] = false,
@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","SHAWARMA","OP","TELEPORT","ANTI","LOBBY","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","SHAWARMA","OP","TELEPORT","ANTI","PROXIMITY PROMPT","LOBBY","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
